@@ -228,3 +228,32 @@ header nav ul li a.active
 	}
 
 }
+
+
+@media (max-width: 800px){
+	  .menu-toggle{
+    display: block;
+    }
+
+    .active {
+  z-index: 999; 
+}
+
+    header nav {
+    
+    position: absolute;
+    width: 100%;
+    background: #333;
+    top: 50px;
+    left: -100%;
+    transition: 0.4s;
+    }
+
+    header nav.active{
+      left: 0;
+    }
+    header nav ul{
+      display: block;
+      text-align: center;
+    }
+}

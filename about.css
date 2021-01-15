@@ -178,7 +178,6 @@ html {
     
     position: absolute;
     width: 100%;
-    height: calc(45vh - 54px);
     background: #333;
     top: 50px;
     left: -100%;
@@ -193,7 +192,5 @@ html {
 			display: block;
 			text-align: center;
 		}
-		header nav ul li a {
-			border-bottom: 1px solid rgba(0,0,0,.2);
-		}
+	
 }

@@ -159,7 +159,7 @@ html {
   height: 1.0rem;            
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .column {
     width: 100%;
     display: block;
@@ -174,7 +174,6 @@ html {
     
     position: absolute;
     width: 100%;
-    height: calc(45vh - 54px);
     background: #333;
     top: 50px;
     left: -100%;
@@ -188,10 +187,7 @@ html {
 			display: block;
 			text-align: center;
 		}
-		header nav ul li a {
-			border-bottom: 1px solid rgba(0,0,0,.2);
-		}
-}
+		
 .date{
 	color: white;
 }
@@ -260,7 +256,6 @@ background: #fff5f5;
     
     position: absolute;
     width: 100%;
-    height: calc(45vh - 54px);
     background: #333;
     top: 50px;
     left: -100%;
@@ -274,9 +269,7 @@ background: #fff5f5;
 			display: block;
 			text-align: center;
 		}
-		header nav ul li a {
-			border-bottom: 1px solid rgba(0,0,0,.2);
-		}
+	
 }
 
 @media screen and (max-width: 495px){
