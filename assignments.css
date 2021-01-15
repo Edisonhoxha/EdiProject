@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+  font-family: 'Poppins'
+}
 body{
 	background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(assigments1.jpg);
 	background-size: cover;
 	background-position: center;
-	font-family: Verdana;
+	
 	 }
 
 
@@ -12,7 +16,7 @@ width:1000px;
     height:800px; }
 
 header{
-  font-family: Georgia;
+  font-family:'Poppins';
   text-transform: uppercase;
   position: absolute;
   top: 0;
@@ -60,10 +64,10 @@ header nav ul li a.active
   color: #000;
 }
 
-/*.lenovo{
+.lenovo{
   display: flex;
     justify-content: space-around;
-}*/
+}
 .menu-toggle{
   color: #fff;
   float: right;

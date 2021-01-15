@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+	font-family: 'Poppins'
+}
+
 body {background-image: radial-gradient(circle, #86b6f6, #8bb7f6, #8fb8f6, #94baf6, #98bbf6, #95baf7, #92b9f7, #8fb8f8, #83b4f9, #75b1fb, #65adfc, #51aafd);
-  font-family: Verdana;
-  margin: 0;
+    margin: 0;
 }
 
 .containerr{
@@ -8,7 +12,7 @@ width:1000px;
     height:800px; }
 
 header{
-	font-family: Georgia;
+	font-family:'Poppins';
 	text-transform: uppercase;
 	position: absolute;
 	top: 0;

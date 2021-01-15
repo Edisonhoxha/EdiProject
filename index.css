@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+  font-family: 'Poppins'
+}
 body {background-image: radial-gradient(circle, #aeaaab, #9d9a9b, #8d8a8c, #7c7a7d, #6c6b6e, #636467, #5b5c5f, #525558, #4f5355, #4c5152, #494e4f, #474c4b);
-  font-family: Verdana;
   margin: 0;
+
 }
 
 
@@ -10,8 +14,9 @@ body {background-image: radial-gradient(circle, #aeaaab, #9d9a9b, #8d8a8c, #7c7a
 }
 
 
+
 header{
-	font-family: Georgia;
+	font-family: 'Poppins';
 	text-transform: uppercase;
 	position: absolute;
 	top: 0;
@@ -59,9 +64,9 @@ header nav ul li a.active
 	color: #000;
 }
 .leader{
-    height: 43px;
+    height: 38px;
     width: 59px;
-    margin-top: 3px;
+    margin-top: 5px;
     margin-left: 8px;
 }
 
