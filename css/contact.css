@@ -140,6 +140,14 @@ header nav ul li a.active
 	flex-direction: column;
 	font-weight: 300;
 }
+.container1 .contactInfo .box .text  a:hover{
+	color: #b1d9de;
+}
+.container1 .contactInfo .box .text  a{
+	color: white;
+	text-decoration: none;
+}
+
 
 .container1 .contactInfo .box .text h3{
 	font-weight: 500;
