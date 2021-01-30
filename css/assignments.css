@@ -64,6 +64,14 @@ header nav ul li a.active
   color: #000;
 }
 
+.leader{
+    height: 38px;
+    width: 59px;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+
+
 .menu-toggle{
   color: #fff;
   float: right;
@@ -214,3 +222,13 @@ header nav ul li a.active
 
 }
 
+@media screen and (max-width: 400px){
+
+  .leader{
+    height: 35px;
+    width: 40px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+}
